@@ -98,12 +98,29 @@
           "src/main/resources/data/minecraft_backlog_updates_fix/recipes/ostrich_meat_3.json"
         ]
       }
+    },
+    {
+      "name": "BaobabTrunk",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_trunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftbacklogupdatesfix/block/BaobabTrunkBlock.java",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/models/item/baobab_trunk.json",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/models/block/baobab_trunk.json",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/blockstates/baobab_trunk.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.minecraft_backlog_updates_fix.baobab_trunk": "Baobab Log",
       "entity.minecraft_backlog_updates_fix.ostrich": "Ostrich",
       "block.minecraft_backlog_updates_fix.baobab_flower": "Baobab Flower",
       "item.minecraft_backlog_updates_fix.cooked_ostrich": "Cooked Ostrich",
@@ -130,6 +147,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.minecraftbacklogupdatesfix",
     "lockBaseModFiles": false
   },
