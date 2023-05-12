@@ -45,14 +45,85 @@
           "src/main/resources/assets/minecraft_backlog_updates_fix/models/item/raw_osterich.json"
         ]
       }
+    },
+    {
+      "name": "CookedOstrich",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_ostrich",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_backlog_updates_fix/models/item/cooked_ostrich.json",
+          "src/main/java/net/mcreator/minecraftbacklogupdatesfix/item/CookedOstrichItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OstrichMeat",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ostrich_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft_backlog_updates_fix/recipes/ostrich_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "OstrichMeat2",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ostrich_meat_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft_backlog_updates_fix/recipes/ostrich_meat_2.json"
+        ]
+      }
+    },
+    {
+      "name": "OstrichMeat3",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ostrich_meat_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft_backlog_updates_fix/recipes/ostrich_meat_3.json"
+        ]
+      }
+    },
+    {
+      "name": "BaobabTrunk",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_trunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftbacklogupdatesfix/block/BaobabTrunkBlock.java",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/models/item/baobab_trunk.json",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/models/block/baobab_trunk.json",
+          "src/main/resources/assets/minecraft_backlog_updates_fix/blockstates/baobab_trunk.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.minecraft_backlog_updates_fix.baobab_trunk": "Baobab Log",
       "entity.minecraft_backlog_updates_fix.ostrich": "Ostrich",
       "block.minecraft_backlog_updates_fix.baobab_flower": "Baobab Flower",
+      "item.minecraft_backlog_updates_fix.cooked_ostrich": "Cooked Ostrich",
       "item.minecraft_backlog_updates_fix.ostrich_spawn_egg": "Ostrich Spawn Egg",
       "item.minecraft_backlog_updates_fix.raw_osterich": "Raw Ostrich",
       "item.minecraft_backlog_updates_fix.test": "Test"
@@ -76,6 +147,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.minecraftbacklogupdatesfix",
     "lockBaseModFiles": false
   },
