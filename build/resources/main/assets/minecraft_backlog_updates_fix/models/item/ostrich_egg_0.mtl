@@ -1,0 +1,13 @@
+newmtl m_db2713cd-c2bb-fd22-5aa9-e0b8a9b7f89c
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd minecraft_backlog_updates_fix:blocks/
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

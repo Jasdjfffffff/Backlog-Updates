@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft_backlog_updates_fix:custom/baobab_flower",
+  "textures": {
+    "all": "minecraft_backlog_updates_fix:blocks/baobab_flower_open",
+    "particle": "minecraft_backlog_updates_fix:blocks/baobab_flower_open",
+    "0": "minecraft_backlog_updates_fix:blocks/baobab_flower_open"
+  },
+  "render_type": "cutout"
+}

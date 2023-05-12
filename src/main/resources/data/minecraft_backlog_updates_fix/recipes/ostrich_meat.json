@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft_backlog_updates_fix:raw_osterich"
+  },
+  "result": "minecraft_backlog_updates_fix:cooked_ostrich"
+}

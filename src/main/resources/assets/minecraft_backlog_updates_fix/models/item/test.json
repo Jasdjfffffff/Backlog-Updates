@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft_backlog_updates_fix:items/sketch-18_5243545"
+  }
+}
