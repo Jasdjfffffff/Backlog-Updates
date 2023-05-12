@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minecraft_backlog_updates_fix:block/baobab_trunk",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft_backlog_updates_fix:block/baobab_trunk"
+    },
+    "axis=z": {
+      "model": "minecraft_backlog_updates_fix:block/baobab_trunk",
+      "x": 90
+    }
+  }
+}

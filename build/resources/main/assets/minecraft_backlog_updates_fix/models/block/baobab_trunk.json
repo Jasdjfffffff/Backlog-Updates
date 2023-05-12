@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_backlog_updates_fix:blocks/baobab_trunk_top",
+    "up": "minecraft_backlog_updates_fix:blocks/baobab_trunk_top",
+    "north": "minecraft_backlog_updates_fix:blocks/baobab_trunk",
+    "east": "minecraft_backlog_updates_fix:blocks/baobab_trunk",
+    "south": "minecraft_backlog_updates_fix:blocks/baobab_trunk",
+    "west": "minecraft_backlog_updates_fix:blocks/baobab_trunk",
+    "particle": "minecraft_backlog_updates_fix:blocks/baobab_trunk_top"
+  },
+  "render_type": "solid"
+}

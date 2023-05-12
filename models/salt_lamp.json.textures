@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "salt_lamp_top",
+        "1": "salt_lamp_side",
+        "2": "salt_lamp_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

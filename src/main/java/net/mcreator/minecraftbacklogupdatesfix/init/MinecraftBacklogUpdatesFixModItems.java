@@ -24,6 +24,7 @@ public class MinecraftBacklogUpdatesFixModItems {
 	public static final RegistryObject<Item> BAOBAB_FLOWER = block(MinecraftBacklogUpdatesFixModBlocks.BAOBAB_FLOWER, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> RAW_OSTERICH = REGISTRY.register("raw_osterich", () -> new RawOsterichItem());
 	public static final RegistryObject<Item> COOKED_OSTRICH = REGISTRY.register("cooked_ostrich", () -> new CookedOstrichItem());
+	public static final RegistryObject<Item> BAOBAB_TRUNK = block(MinecraftBacklogUpdatesFixModBlocks.BAOBAB_TRUNK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
